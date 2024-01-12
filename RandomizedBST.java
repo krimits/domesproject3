@@ -1,7 +1,8 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-
+import java.util.PriorityQueue;
+import java.util.Comparator;
 public class RandomizedBST implements TaxEvasionInterface {
     // Κατασκευαστής χωρίς παραμέτρους
     public RandomizedBST() {
